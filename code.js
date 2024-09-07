@@ -1,6 +1,7 @@
 function insertionSortReverse(array) {
     //console.log(array.length);
     if(array.length != 0){
+        // this ^^^ might be pointless but my machine is breaking without it so... ¯\_(ツ)_/¯
     for(i=array.length; i >= 0 ; i--){
        // var count;
        // count++;
